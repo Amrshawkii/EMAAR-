@@ -1,0 +1,268 @@
+
+*
+{
+    box-sizing: border-box;
+    
+}
+body
+{
+    font-family: 'Lato,sans-serif';
+    font-size: 18px;
+    font-weight: 300;
+    color: #232323;
+    
+}
+ .navbar-nav
+{
+    font-size: 12px ;
+    font-family: lato,sans-serif;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #232323;
+    
+}
+.whatsapp-button
+{
+    
+    position: fixed;
+    top: 3px;
+    right: 620px;
+}
+
+h1 , h2 , h3 , h4 , h5 , p , form
+{
+    font-family: lato,sans-serif;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+   
+  }
+  .wrapper .wrapper__video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+.emaar-caption 
+{
+    background-color: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    
+    top: 15%;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.emaar-caption h3 
+{
+    font-size: 24px;
+    line-height: 36px;
+    padding:  10px;
+    font-family: lato,sans-serif;
+}
+.emaar-caption p 
+{
+    font-size: 1.2rem;
+    padding: 0 0 25px;
+    color: #96969c;
+    font-family: lato,sans-serif;
+    
+
+}
+
+
+.text-mine
+{
+    background-color: #071c35;
+    color: #fff !important;
+    font-size: 12px !important;
+    font-family: lato,sans-serif;
+    line-height: 24px;
+    letter-spacing: 2px;
+
+}
+.bgcolor
+{
+    background-color: #f8f9fb;
+    
+}
+#tours h4
+{
+    position: relative;
+    
+    color: #9d9d9c;
+}
+#tours h4::after
+{
+    content: "";
+    width: 7rem;
+    height: 1px;
+    background-color: #9d9d9c;
+    position: absolute;
+    top: 50%;
+    left: 4rem;
+}
+#properties h4
+{
+    position: relative;
+    
+    color: #9d9d9c;
+}
+#properties h4::after
+{
+    content: "";
+    width: 7rem;
+    height: 1px;
+    background-color: #9d9d9c;
+    position: absolute;
+    top: 50%;
+    left: 10rem;
+}
+
+
+#communities h4::after
+{
+    content: "";
+    width: 7rem;
+    height: 1px;
+    background-color: #9d9d9c;
+    position: absolute;
+    top: 50%;
+    left: 11rem;
+}
+
+.line , .town-center  
+{
+    position: relative;
+    font-size: 12px !important;
+    font-family: lato,sans-serif;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #232323;
+}
+.line::after
+{
+    border-left: 1px solid #232323;
+    display: inline-block;
+    content: '';
+    width: 1px;
+    height: 70%;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+#communities h4 , #digital h4
+{
+    position: relative;
+    color: #9d9d9c;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: Lato,sans-serif;
+}
+#communities h2 
+{
+    font-family: sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 30px;
+}
+#communities h3
+{
+    color: #000;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+}
+#communities p 
+{
+    color: #000;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-family: Lato,sans-serif;
+    line-height: 10px;
+}
+#digital h2
+{
+    font-family: sans-serif;
+    color: #000;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    
+}
+#digital h4::after
+{
+    content: "";
+    width: 7rem;
+    height: 1px;
+    background-color: #9d9d9c;
+    position: absolute;
+    top: 50%;
+    left: 13rem;
+}
+#digital p
+{
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: lato,sans-serif;
+    color: #232323;
+    
+}
+.digital-features h3
+{
+    
+    font-size: 18px;
+    font-family: Lato,sans-serif;
+    line-height: 24px;
+    font-weight: 300;
+    position: relative;
+    padding: 0 0 0 50px;
+    margin: 0;
+    text-transform: inherit;
+}
+.digital-features i
+{
+    font-size: 18px;
+    text-align: center;
+    color: #071c35;
+    height: 39px;
+    width: 39px;
+    border: 1px solid #071c35;
+    background-color: #fff;
+    border-radius: 100%;
+    margin-right: 5px;
+    line-height: 36px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    
+}
+
+#emmar a
+{
+    font-size: 12px;
+    color: #99979c;
+    line-height: 40px;
+}
+#emmar h3
+{
+    font-family: Lato,sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    
+    font-weight: 700;
+    color: #9d9d9c;
+    margin-bottom: 15px;
+}
+.image
+{
+    float: left;
+}
